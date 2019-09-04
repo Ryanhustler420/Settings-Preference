@@ -22,6 +22,27 @@
         <item>Mobile</item>
         <item>Wifi_Mobile</item>
     </string-array>
-    
+
+
+    <string name="storage_group_title">STORAGE</string>
+    <string name="text_message_group_title">TEXT (SMS) MESSAGES</string>
+    <string name="text_multimedia_message_group_title">MULTIMEDIA (MMS) MESSAGE</string>
+
+    <string name="delete_message_title">Delete old messages</string>
+    <string name="delete_message_summary">Delete old messages as limits are reached</string>
+
+    <string name="text_message_limit_title">Text message limit</string>
+    <string name="text_message_limit_summary">200 message per conversation</string>
+
+    <string name="multimedia_message_limit_title">Multimedia message limit</string>
+    <string name="multimedia_message_limit_summary">150 messages per conversation</string>
+
+    <string name="delivery_reports_title">Delivery reports</string>
+    <string name="delivery_reports_summary">Request a delivery report for each message you send</string>
+
+    <string name="sim_card_message_title">Manage SIM card messages</string>
+    <string name="sim_card_message_summary">Manage messages stored on your SIM card</string>
+
+
     <string name="settings">Settings</string>
 </resources>

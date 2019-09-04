@@ -8,11 +8,53 @@
         android:title="@string/sync_pref" />
 
     <ListPreference
-        android:dependency="pref_sync"
         android:defaultValue="@string/pref_syncConnectionType_default_value"
+        android:dependency="pref_sync"
         android:entries="@array/pref_syncConnectionType_entries"
         android:entryValues="@array/pref_syncConnectionType_values"
         android:summary="@string/pref_syncConnectionType_summary"
         android:title="@string/pref_syncConnectionType" />
+
+    <!--to make group-->
+    <PreferenceCategory android:title="@string/storage_group_title">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_delete_old_message"
+            android:summary="@string/delete_message_summary"
+            android:title="@string/delete_message_title" />
+        <Preference
+            android:dependency="pref_delete_old_message"
+            android:summary="@string/text_message_limit_summary"
+            android:title="@string/text_message_limit_title" />
+        <Preference
+            android:dependency="pref_delete_old_message"
+            android:summary="@string/multimedia_message_limit_summary"
+            android:title="@string/multimedia_message_limit_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/text_message_group_title">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_delivery_reports_sms"
+            android:summary="@string/delete_message_summary"
+            android:title="@string/delivery_reports_title" />
+
+        <Preference
+            android:dependency="pref_delivery_reports_sms"
+            android:summary="@string/sim_card_message_summary"
+            android:title="@string/sim_card_message_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/text_multimedia_message_group_title">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_delivery_reports_mms"
+            android:summary="@string/delivery_reports_summary"
+            android:title="@string/delete_message_title" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
