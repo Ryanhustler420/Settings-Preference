@@ -18,9 +18,9 @@
     </string-array>
 
     <string-array name="pref_syncConnectionType_values">
-        <item>Wifi</item>
-        <item>Mobile</item>
-        <item>Wifi_Mobile</item>
+        <item>Wi-fi</item>
+        <item>Mobile Data</item>
+        <item>Wi-fi/Mobile Data</item>
     </string-array>
 
 
@@ -44,7 +44,7 @@
     <string name="sim_card_message_summary">Manage messages stored on your SIM card</string>
 
     <!--Sub Screen of settings-->
-    
+
     <string name="ringtone_title_group">RINGTONE</string>
     <string name="other_callSettings_title_group">OTHER CALL SETTINGS</string>
 

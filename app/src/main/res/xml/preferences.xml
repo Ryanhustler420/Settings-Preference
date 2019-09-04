@@ -8,6 +8,7 @@
         android:title="@string/sync_pref" />
 
     <ListPreference
+        android:key="connection_type"
         android:defaultValue="@string/pref_syncConnectionType_default_value"
         android:dependency="pref_sync"
         android:entries="@array/pref_syncConnectionType_entries"
