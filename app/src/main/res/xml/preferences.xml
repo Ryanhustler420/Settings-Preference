@@ -57,4 +57,39 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory android:title="@string/ringtone_title_group">
+
+        <Preference
+            android:summary="The Horror"
+            android:title="@string/phone_ringtone_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_vibrate_when_ring"
+            android:title="@string/vibrate_ringing_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/other_callSettings_title_group">
+
+        <!--persistent: 'false' meaning key value pair will not save to phone-->
+        <PreferenceScreen
+            android:key="pref_voice_mail"
+            android:persistent="false"
+            android:title="@string/voiceMail_title">
+
+            <Preference
+                android:summary="@string/service_summary"
+                android:title="@string/service_title" />
+            <Preference android:title="@string/setup_title" />
+            <Preference android:title="@string/ringtone_title" />
+            <Preference
+                android:summary="@string/vibrate_summary"
+                android:title="@string/vibrate_title" />
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+
 </PreferenceScreen>

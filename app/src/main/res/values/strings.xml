@@ -43,6 +43,22 @@
     <string name="sim_card_message_title">Manage SIM card messages</string>
     <string name="sim_card_message_summary">Manage messages stored on your SIM card</string>
 
+    <!--Sub Screen of settings-->
+    
+    <string name="ringtone_title_group">RINGTONE</string>
+    <string name="other_callSettings_title_group">OTHER CALL SETTINGS</string>
+
+    <string name="voiceMail_title">Voice Mail</string>
+    <string name="dial_pad_touch_tone">Dial pad touch tones</string>
+    <string name="vibrate_ringing_title">Vibrate when ringing</string>
+    <string name="phone_ringtone_title">Phone ringtone</string>
+
+    <string name="service_title">Service</string>
+    <string name="service_summary">Google Voice</string>
+    <string name="setup_title">Setup</string>
+    <string name="ringtone_title">Ringtone</string>
+    <string name="vibrate_title">Vibrate</string>
+    <string name="vibrate_summary">Always</string>
 
     <string name="settings">Settings</string>
 </resources>
